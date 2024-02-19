@@ -3,9 +3,14 @@
     "lang": "en",
     "language": "English",
     "languageInChineseSimple": "英语",
-    "title": "英语",
-    "description": "英语",
+    "title": "Fake Sora API",
+    "description": "API for SoraWebui.",
     "loadingText": "Loading...",
-    "loginText": "Log in"
+    "buttonText": "Generate",
+    "loginText": "Log in",
+    "h1Text": "Fake Sora API",
+    "pDescription0": "API for ",
+    "pDescription1": " , This API will be called to generate video from text.",
+    "pDescription2": "There is no Sora API for OpenAI yet, but you can still call me to see examples of text-to-video."
   }
 }
