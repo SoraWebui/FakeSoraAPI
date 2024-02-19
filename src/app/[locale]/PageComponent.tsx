@@ -3,6 +3,7 @@ import {useRouter} from "next/navigation";
 import Header from '~/components/Header';
 import Footer from '~/components/Footer';
 import Link from "next/link";
+import HeadInfo from "~/components/HeadInfo";
 
 const PageComponent = ({
                          locale = '',
@@ -22,8 +23,12 @@ const PageComponent = ({
 
   return (
     <>
-      <title>{currentLanguageText.title}</title>
-      <meta name="description" content={currentLanguageText.description}/>
+      <HeadInfo
+        title={currentLanguageText.title}
+        description={currentLanguageText.description}
+        locale={locale}
+        page={""}
+      />
       <Header locale={locale}/>
       <div className={"my-auto"}>
         <div className="h-full my-auto block overflow-hidden bg-[#020d24] bg-cover bg-center text-white"
