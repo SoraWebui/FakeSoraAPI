@@ -3,12 +3,11 @@ import Link from "next/link";
 
 const navigation = {
   product: [
-    {name: 'SoraWebui', href: 'https://sorawebui.com'},
-    {name: 'Whooper', href: 'https://whooper.ai'},
+    {name: 'SoraWebui', href: 'https://sorawebui.com'}
   ],
   legal: [
-    {name: 'Privacy Policy', href: '#'},
-    {name: 'Terms & Conditions', href: '#'},
+    {name: 'Privacy Policy', href: '/privacy-policy'},
+    {name: 'Terms & Conditions', href: '/terms-of-service'},
   ],
   social: [
     {
@@ -29,8 +28,7 @@ const navigation = {
 
 export default function Footer({
                                  locale = '',
-                                 description='',
-                                 pDescription0=''
+                                 description=''
                                }) {
   return (
     <footer className="bg-[#020d24]" aria-labelledby="footer-heading">
@@ -50,11 +48,7 @@ export default function Footer({
               />
             </a>
             <p className="text-sm text-gray-300">
-              {pDescription0}
-              <Link
-                href={"https://sorawebui.com"}
-                className={"hover:text-blue-500"}
-                target={"_blank"}>SoraWebui</Link>
+              {description}
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (

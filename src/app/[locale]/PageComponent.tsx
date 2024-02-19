@@ -52,7 +52,7 @@ const PageComponent = ({
       </div>
       <Footer
         locale={locale}
-        pDescription0={currentLanguageText.pDescription0}
+        description={currentLanguageText.description}
       />
     </>
   )
