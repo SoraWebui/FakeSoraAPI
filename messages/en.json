@@ -14,7 +14,7 @@
     "pDescription2": "There is no Sora API for OpenAI yet, but you can still call me to see examples of text-to-video."
   },
   "privacyPolicy": {
-    "title": "Privacy Policy ｜ Sora Webui",
+    "title": "Privacy Policy ｜ SoraWebui",
     "mainDescription": "A browser interface for OpenAI Sora, generate text-to-video simply.",
     "h1": "Privacy Policy",
     "date": "Last updated: February 19, 2024",
@@ -34,7 +34,7 @@
     "h4_6_p": "If you have any questions or concerns regarding our Privacy Policy, please contact us at"
   },
   "termsOfService": {
-    "title": "Terms of Service ｜ Sora Webui",
+    "title": "Terms of Service ｜ SoraWebui",
     "mainDescription": "A browser interface for OpenAI Sora, generate text-to-video simply.",
     "h1": "Terms of Service",
     "date": "Last updated: February 19, 2024",

@@ -14,7 +14,7 @@
     "pDescription2": "目前还没有适用于 OpenAI 的 Sora API，但您仍然可以调用本 API 来查看文本转视频的示例。"
   },
   "privacyPolicy": {
-    "title": "隐私政策 ｜ Sora Webui",
+    "title": "隐私政策 ｜ SoraWebui",
     "mainDescription": "OpenAI Sora 的浏览器界面，简单生成文本到视频。",
     "h1": "隐私政策",
     "date": "最后更新日期：2024年2月19日",
@@ -34,7 +34,7 @@
     "h4_6_p": "如果您对我们的隐私政策有任何疑问或顾虑，请通过以下方式与我们联系："
   },
   "termsOfService": {
-    "title": "服务条款｜ Sora Webui",
+    "title": "服务条款｜ SoraWebui",
     "mainDescription": "OpenAI Sora 的浏览器界面，简单生成文本到视频。",
     "h1": "服务条款",
     "date": "最后更新日期：2024年2月19日",
