@@ -31,4 +31,4 @@ pnpm dev
 4. Open [http://localhost](http://localhost) with your browser to see it.
 
 ## Deploy on Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url%3Dhttps%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI%26project-name%3DSoraWebui%26repository-name%3DSoraWebui%26external-id%3Dhttps%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI%2Ftree%2Fmain)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI&project-name=FakeSoraAPI&repository-name=FakeSoraAPI&external-id=https%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI%2Ftree%2Fmain)
