@@ -31,8 +31,4 @@ pnpm dev
 4. Open [http://localhost](http://localhost) with your browser to see it.
 
 ## Deploy on Vercel
-
-The easiest way to deploy this app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url%3Dhttps%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI%26project-name%3DSoraWebui%26repository-name%3DSoraWebui%26external-id%3Dhttps%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI%2Ftree%2Fmain)
