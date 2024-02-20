@@ -4,6 +4,8 @@ import Header from '~/components/Header';
 import Footer from '~/components/Footer';
 import Link from "next/link";
 import HeadInfo from "~/components/HeadInfo";
+import Markdown from "react-markdown";
+import {useState} from "react";
 
 const PageComponent = ({
                          locale = '',
