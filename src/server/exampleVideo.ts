@@ -23,7 +23,7 @@ export const getExampleVideo = async (prompt:string) => {
         }
       }
     }
-    if (currentMatchCount >= matchCount) {
+    if (currentMatchCount > matchCount) {
       // console.log('currentMatchCount-=-=-=-=-', currentMatchCount);
       matchCount = currentMatchCount;
       result.revised_prompt = currentVideo.prompt;
