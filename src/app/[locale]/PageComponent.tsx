@@ -106,7 +106,7 @@ const PageComponent = ({
                   {
                     requestBody.map((item, index) => {
                       return (
-                        <>
+                        <div key={item.description}>
                           <span>
                             <span className={"font-bold"}>{item.paramName}</span>&nbsp;&nbsp;
                             <span className={"text-gray-400"}>{item.type}</span>&nbsp;&nbsp;
@@ -117,7 +117,7 @@ const PageComponent = ({
                           {
                             index < 2 ? <hr className={"-mt-1 mb-2"}/> : null
                           }
-                        </>
+                        </div>
                       );
                     })
                   }
