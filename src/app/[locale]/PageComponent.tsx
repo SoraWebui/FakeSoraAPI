@@ -140,6 +140,13 @@ curl https://fake-sora-api.sorawebui.com/v1/video/generations \\
                     {JSON.stringify(responseBody, null, 2)}
                   </Highlight>
                 </div>
+                <div key={"more"} className={"px-6 py-4"}>
+                  <Link href={`https://sorawebui.com`}
+                        target={"_blank"}
+                        className={"flex justify-center items-center text-xl text-gray-600 hover:text-blue-600"}>
+                    Test API {'>>'}
+                  </Link>
+                </div>
               </div>
             </div>
 
