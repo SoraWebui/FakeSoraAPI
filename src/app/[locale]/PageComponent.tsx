@@ -5,7 +5,6 @@ import Footer from '~/components/Footer';
 import Link from "next/link";
 import HeadInfo from "~/components/HeadInfo";
 import Markdown from "react-markdown";
-import {useState} from "react";
 
 const PageComponent = ({
                          locale = '',
@@ -23,6 +22,43 @@ const PageComponent = ({
                        }) => {
   const router = useRouter();
 
+  const requestBody = [
+    {
+      paramName: "prompt",
+      type: "string",
+      require: "Required",
+      description: "A text description of the desired video. The maximum length is 1000 characters."
+    },
+    {
+      paramName: "model",
+      type: "string",
+      require: "Optional Defaults to sora-1.0-turbo",
+      description: "The model to use for video generation."
+    },
+    // {
+    //   paramName: "n",
+    //   type: "integer",
+    //   require: "Optional Defaults to 1",
+    //   description: "The number of video to generate."
+    // },
+    {
+      paramName: "size",
+      type: "string",
+      require: "Optional Defaults to 1920X1080",
+      description: "The size of the generated video."
+    }
+  ]
+
+  const responseBody = {
+    "data":
+      [
+        {
+          "revised_prompt": "",
+          "url": "https://XXXXXX.mp4"
+        }
+      ]
+  };
+
   return (
     <>
       <HeadInfo
@@ -39,7 +75,7 @@ const PageComponent = ({
             <div
               className="mx-auto flex max-w-4xl flex-col items-center text-center py-10">
               <h1 className="mb-4 text-4xl font-bold md:text-6xl">{currentLanguageText.h1Text}</h1>
-              <div className="mb-5 max-w-[568px] lg:mb-8 mt-16">
+              <div className="mb-5 max-w-[568px] lg:mb-8 mt-8">
                 <p className="text-[#7c8aaa] text-2xl">
                   {currentLanguageText.pDescription0}
                   <Link
@@ -48,9 +84,49 @@ const PageComponent = ({
                     target={"_blank"}>SoraWebui</Link>
                   {currentLanguageText.pDescription1}
                 </p>
-                <p className="text-[#7c8aaa] text-2xl mt-4">
+                <p className="text-blue-600 text-2xl mt-4">
                   {currentLanguageText.pDescription2}
                 </p>
+              </div>
+            </div>
+
+            <div className={"border-[14px] border-[#ffffff1f] object-fill w-[90%] mx-auto mt-2"}>
+              <div className={"mx-auto bg-white py-8"}>
+                <div className={"pb-2 border-b-2"}>
+                  <h2
+                    className={"text-blue-500 pt-4 text-4xl flex justify-center items-center"}>API Reference</h2>
+                </div>
+                <div className={"w-[96%] text-gray-700 prose mx-auto mt-4"}>
+                  <h3>Request url</h3>
+                  <p className={"mt-1"}>
+                    POST https://fake-sora-api.sorawebui.com/v1/video/generations
+                  </p>
+                  <h3>Request body</h3>
+                  <hr className={"mt-0 mb-2"}/>
+                  {
+                    requestBody.map((item, index) => {
+                      return (
+                        <>
+                          <h5 className={"font-bold"}>{item.paramName}&nbsp;
+                            <span className={"text-gray-400"}>{item.type}</span>&nbsp;
+                            <span
+                              className={`${item.require == 'Required' ? 'text-red-400' : 'text-gray-400'}`}>{item.require}</span>
+                          </h5>
+                          <p className={"mt-1"}>{item.description}</p>
+                          {
+                            index < 2 ? <hr className={"-mt-1 mb-2"}/> : null
+                          }
+                        </>
+                      );
+                    })
+                  }
+                  <h3>Response body</h3>
+                  <pre>
+                    {
+                      JSON.stringify(responseBody, null, 2)
+                    }
+                  </pre>
+                </div>
               </div>
             </div>
 
