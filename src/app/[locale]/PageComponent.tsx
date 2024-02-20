@@ -5,6 +5,7 @@ import Footer from '~/components/Footer';
 import Link from "next/link";
 import HeadInfo from "~/components/HeadInfo";
 import Markdown from "react-markdown";
+import Highlight from 'react-highlight'
 
 const PageComponent = ({
                          locale = '',
@@ -115,18 +116,29 @@ const PageComponent = ({
                           </span>
                           <p className={"mt-1"}>{item.description}</p>
                           {
-                            index < 2 ? <hr className={"-mt-1 mb-2"}/> : null
+                            index < 2 ? <hr className={"-mt-2 mb-2"}/> : null
                           }
                         </div>
                       );
                     })
                   }
-                  <h3>Response body</h3>
-                  <pre>
-                    {
-                      JSON.stringify(responseBody, null, 2)
-                    }
-                  </pre>
+                  <h3>Example request</h3>
+                  <Highlight language="javascript">
+                    {`
+curl https://fake-sora-api.sorawebui.com/v1/video/generations \\
+-H "Content-Type: application/json" \\
+-H "Authorization: Bearer $OPENAI_API_KEY" \\
+-d '{
+  "model": "sora-1.0-turbo",
+  "prompt": "A cute baby sea otter",
+  "size": "1920x1080"
+}'
+                    `}
+                  </Highlight>
+                  <h3>Example response body</h3>
+                  <Highlight language="javascript">
+                    {JSON.stringify(responseBody, null, 2)}
+                  </Highlight>
                 </div>
               </div>
             </div>
