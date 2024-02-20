@@ -1,5 +1,6 @@
 # FakeSoraAPI
 SoraWebui 的接口，调用此 API 以从文本生成视频。
+👉 [FakeSoraAPI](https://fake-sora-api.sorawebui.com)
 
 <div align="left">
 
