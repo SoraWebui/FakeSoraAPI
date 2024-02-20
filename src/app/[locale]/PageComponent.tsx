@@ -107,11 +107,12 @@ const PageComponent = ({
                     requestBody.map((item, index) => {
                       return (
                         <>
-                          <h5 className={"font-bold"}>{item.paramName}&nbsp;
-                            <span className={"text-gray-400"}>{item.type}</span>&nbsp;
+                          <span>
+                            <span className={"font-bold"}>{item.paramName}</span>&nbsp;&nbsp;
+                            <span className={"text-gray-400"}>{item.type}</span>&nbsp;&nbsp;
                             <span
                               className={`${item.require == 'Required' ? 'text-red-400' : 'text-gray-400'}`}>{item.require}</span>
-                          </h5>
+                          </span>
                           <p className={"mt-1"}>{item.description}</p>
                           {
                             index < 2 ? <hr className={"-mt-1 mb-2"}/> : null
