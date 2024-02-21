@@ -1,6 +1,6 @@
 # FakeSoraAPI
-API for SoraWebui.This API will be called to generate video from text.
-👉 [FakeSoraAPI](https://fake-sora-api.sorawebui.com)
+API for [SoraWebui](https://github.com/SoraWebui/SoraWebui).This API will be called to generate video from text.
+demo here👉 [FakeSoraAPI](https://fake-sora-api.sorawebui.com)
 
 <div align="left">
 
