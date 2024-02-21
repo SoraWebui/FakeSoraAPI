@@ -40,5 +40,5 @@ npm run dev
 pnpm dev
 ```
 
-### 4. Open [http://localhost](http://localhost) with your browser to see it.
+### 4. Open [http://localhost:8081](http://localhost:8081) with your browser to see it.
 ![success_deploy.jpg](https://fake-sora-api.sorawebui.com/success_deploy.jpg)

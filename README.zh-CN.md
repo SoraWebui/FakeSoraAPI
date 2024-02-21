@@ -40,5 +40,5 @@ npm run dev
 pnpm dev
 ```
 
-### 4. 在浏览器打开 [http://localhost](http://localhost)
+### 4. 在浏览器打开 [http://localhost:8081](http://localhost:8081)
 ![success_deploy.jpg](https://fake-sora-api.sorawebui.com/success_deploy.jpg)
