@@ -8,7 +8,7 @@ English | [简体中文](https://github.com/SoraWebui/FakeSoraAPI/blob/main/READ
 
 </div>
 
-## Quick Started
+## Getting Started:
 
 ### Deploy on Vercel
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI&project-name=FakeSoraAPI&repository-name=FakeSoraAPI&external-id=https%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI%2Ftree%2Fmain)
