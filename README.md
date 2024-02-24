@@ -4,7 +4,7 @@ demo here👉 [FakeSoraAPI](https://fake-sora-api.sorawebui.com)
 
 <div align="left">
 
-English | [简体中文](https://github.com/SoraWebui/FakeSoraAPI/blob/main/README.zh-CN.md)
+English | [简体中文](https://github.com/SoraWebui/FakeSoraAPI/blob/main/README.zh-CN.md) | [हिंदी](https://github.com/SoraWebui/FakeSoraAPI/blob/main/README.hi.md)
 
 </div>
 
