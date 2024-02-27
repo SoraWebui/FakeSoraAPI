@@ -4,7 +4,7 @@ SoraWebui 的接口，调用此 API 以从文本生成视频。
 
 <div align="left">
 
-[English](https://github.com/SoraWebui/FakeSoraAPI/blob/main/README.md) | 简体中文
+[English](https://github.com/SoraWebui/FakeSoraAPI/blob/main/README.md) | 简体中文 | [हिंदी](https://github.com/SoraWebui/FakeSoraAPI/blob/main/README.hi.md)
 
 </div>
 

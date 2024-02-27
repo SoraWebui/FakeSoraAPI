@@ -4,11 +4,11 @@ demo here👉 [FakeSoraAPI](https://fake-sora-api.sorawebui.com)
 
 <div align="left">
 
-English | [简体中文](https://github.com/SoraWebui/FakeSoraAPI/blob/main/README.zh-CN.md)
+English | [简体中文](https://github.com/SoraWebui/FakeSoraAPI/blob/main/README.zh-CN.md) | [हिंदी](https://github.com/SoraWebui/FakeSoraAPI/blob/main/README.hi.md)
 
 </div>
 
-## Quick Started
+## Getting Started:
 
 ### Deploy on Vercel
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI&project-name=FakeSoraAPI&repository-name=FakeSoraAPI&external-id=https%3A%2F%2Fgithub.com%2FSoraWebui%2FFakeSoraAPI%2Ftree%2Fmain)
